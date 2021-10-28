@@ -1,0 +1,227 @@
+:root{
+    --button-color:#FF9C19;
+    --button-color-hover:#E58200;
+    --main-background:#FFE7C3;
+    --footer-background:#FFCB7E;
+  }
+  
+  
+  *{
+    box-sizing:border-box;
+  }
+  
+  #image-troble{
+    height:50px;
+    max-weight:100%;
+    
+  }
+  
+  #image-tromboes{
+    margin-right:45%;
+  }
+  header{
+    top:0;
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    background-color:var(--main-background);
+    position:fixed;
+    
+  }
+  #header-navigate{
+    
+    align-self:flex-end;
+  }
+  
+  #header-navigate{
+    display:flex;
+    text-decoration:none;
+    gap:120px;
+    font-size:17px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;  
+  }
+  
+  li{
+    list-style-type:none;
+  }
+  
+  
+  main{
+    
+    display:flexbox;
+    background-color:var(--main-background);
+    /** text-align:center; **/
+    
+  }
+  #body{
+    margin-left:15%;
+    margin-right:15%;
+    background-color:var(--main-background);
+  }
+  
+  #hero{
+    text-align:center;
+    margin-top:50px;
+    padding-top:5px;
+  }
+  
+  #email, #getstarted{
+    margin-bottom:10px;
+  }
+  
+  #email{
+    width:30%;
+    height:30px;
+  }
+  
+  #getstarted{
+    background-color:#FF9C19;
+    border:none;
+    width:15%;
+    height:30px;
+    font-size:17px;
+    
+  }
+  
+  #getstarted:hover{
+    background-color:#E58200;
+  }
+  
+  
+  
+  i{
+    color:#E78E19;
+  }
+  
+  #premium-materials, #fast-shipping, #quality-assurance{
+    margin-left:10%;
+    margin-bottom:3%;
+    display:grid;
+    grid-template-columns:15% 85%;
+  
+  }
+  
+  #premium-image, #fast-shipping-image, #quality-assurance-image{
+    margin:auto;
+    
+  }
+  
+  #features h1, #features p{
+    text-align:left;
+    
+  }
+  
+  #premium-desctription{
+    text-line:5px;
+  }
+  
+  
+  #how-it-works{
+    display:flex;
+    justify-content:center;  
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+  
+  #video{
+    width:50%;
+    
+    
+  }
+  
+  #pricing{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+      align-content:center;
+    gap:40px;
+  }
+  
+  
+  #tenor, #valve, #bass{
+    width:25%;
+    hight:auto;
+    border: 1px solid #967429;
+    opacity: 0.8;
+  }
+  
+  #tenor:hover, #valve:hover, #bass:hover{
+    opacity: 1;
+    tansation:opacity 1s;
+    
+    background-color:#FFEFB4;
+    tansation:background-color 1s;
+  }
+  
+  
+  .pricing-grid-h3{
+    padding:15px;
+    text-align:center;
+    background-color:#F6C988;
+  
+  }
+  #tenor-price, #bass-price, #valve-price{
+    margin-top:5%;
+    font-size:30px;
+    text-align:center;
+    
+  }
+  
+  
+  
+  #tenor-price-destription ol, #bass ul, #valve ul{
+  display:flexbox;
+    flex-direction:column;
+    padding:0;
+    text-align:center;
+    margin-top:10%;
+    font-size:18px;
+    line-height:35px;
+  }
+  
+  
+  #valve-button, #tenor-button, #bass-button{
+    padding:0;
+    margin-top:15%;
+    width:100%;
+    font-size:30px;
+    background-color:var(--button-color);
+    border:none;
+    
+    
+  }
+  
+  #valve-button:hover, #tenor-button:hover, #bass-button:hover{
+    background-color:var(--button-color-hover);
+    transition: background-color 1s;
+  }
+  
+  footer{
+    background-color:var(--footer-background);
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    
+  }
+  
+  #footer-adds{
+    margin-left:75%;
+    
+    flex-direction:column;
+  }
+  
+  #footer-nav ul{
+  
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+    
+  }
+  
+  #footer-copyright{
+    color:#B69C45;
+  }
