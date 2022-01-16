@@ -1,0 +1,227 @@
+:root{
+    --button-color:#FF9C19;
+    --button-color-hover:#E58200;
+    --main-background:#FFE7C3;
+    --footer-background:#FFCB7E;
+    --fontHeaderColor:#583e17;
+  }
+  
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+i{
+    color:#E78E19;
+    
+  }
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:var(--fontHeaderColor);
+    font-weight: bold;
+}
+
+header{
+    background-color: var(--footer-background);
+}
+header ul{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+header li:first-child{
+    flex-basis: 100%;    
+  
+}
+
+header img{
+    height: auto;
+    max-width: 100%;
+
+}
+
+header li{
+    display: block;
+    margin: 10px;
+    
+}
+main{
+    
+    display:flex;
+    background-color:var(--main-background);
+    
+  }
+  #body{
+    margin: 0 auto;
+    background-color:var(--main-background);
+    padding-left: 10px;
+  }
+  
+  #hero{
+    text-align:center;
+    margin-top:10px;
+    padding-top:5px;
+  }
+  
+  #email, #getstarted{
+    margin-bottom:10px;
+  }
+  
+  #email{
+    width:80%;
+    height:30px;
+  }
+  
+  #getstarted{
+    background-color:#FF9C19;
+    border:none;
+    width:auto;
+    height:30px;
+    font-size:17px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+  }
+  
+  #getstarted:hover{
+    background-color:#E58200;
+  }
+  
+  #premium-materials, #fast-shipping, #quality-assurance{
+
+    display:grid;
+    gap: 5%;
+    grid-template-columns:10% 85%;
+  
+  }
+
+  .geatures-section{
+      margin-bottom: 10px;
+  }
+
+  .pricing-grid{
+    display: grid;
+
+}
+
+
+footer{
+    background-color:var(--footer-background);
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    padding: 10px;
+    
+  }
+  
+  #footer-adds{
+      align-self: flex-end;
+  }
+  
+  #footer-nav ul{
+  
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+    
+  }
+  
+  #footer-copyright{
+    margin-top: 10px;
+    color:#B69C45;
+  }
+  #valve-button, #tenor-button, #bass-button{
+    cursor: pointer;
+    margin: 0 auto;
+    width:100%;
+    font-size:30px;
+    background-color:var(--button-color);
+    border:none;
+    display: block;
+  }
+
+  #tenor, #valve, #bass{
+    margin: 0 auto;
+    width:100%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height:auto;
+    border: 1px solid #967429;
+    opacity: 0.8;
+    display: block;
+  }
+
+  #tenor, #bass, #valve{
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    text-align:center;  
+    font-size:18px;
+    line-height:35px;
+  }
+
+  #video{
+    width:100%;
+    height: 200px;
+    
+  }
+  
+  #pricing{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+  }
+
+@media (min-width: 650px){
+
+#pricing{
+    flex-direction: row;
+}
+
+#tenor:hover, #valve:hover, #bass:hover{
+    opacity: 1;
+    transition: opacity 1s;
+    background-color:#FFEFB4;
+    transition:background-color 1s;
+    }
+
+    header ul{
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    align-content: center;
+    }
+
+}
+
+#video{
+    height: 300px;
+  }
+
+@media (min-width: 800px){
+
+    header ul{
+        justify-content: flex-end;
+        gap: 20px;
+        margin-right: 10px;
+    }
+
+    header li:first-child{
+        flex-basis: 25%;
+        margin-right: auto;
+    }
+
+    #video{
+        height: 400px;
+      }
+    
+}
